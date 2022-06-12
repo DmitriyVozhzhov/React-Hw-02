@@ -19,7 +19,7 @@ export function Timer() {
 
     return (
         <div>
-            <h2>HW 13</h2>
+            <h2>ДЗ 16 "Lifecycles"</h2>
             <div className="time">
                 <h2>{date.toLocaleTimeString()}</h2>
             </div>
