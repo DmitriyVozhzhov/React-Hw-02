@@ -24,7 +24,7 @@ export function Timer() {
                 <h2> Текущее Время    {date.toLocaleTimeString()}</h2>
             </div>
             <button className="stop" onClick={() => setStatus(false)}>Stop</button>
-            <button className="start" onClick={() => setStatus(true)}>Start</button>s
+            <button className="start" onClick={() => setStatus(true)}>Start</button>
         </div >
     );
 }
